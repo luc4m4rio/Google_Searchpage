@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+header{
+    height: 130px;
+    border: 1px solid #EBEBEB;
+}
+.upper-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 0 0 25px;
+}
+#google-logo{
+    cursor: pointer;
+    width: 92px;
+    height: auto;
+}
+#searchbox{
+    outline-style: none;
+    border: 0;
+    width: 648px;
+    height: 20px;
+    margin-left: 26px;
+}
+.searchbox-bg{
+    margin-left: 40px;
+    width: 700px;
+    height: 48px;
+    border: 1px solid #e4e7ed;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2vh;    
+    margin-bottom: 2vh;
+}
+.searchbox-bg:hover{
+    box-shadow: 1px 1px 4px #dedfe0;
+}
+input[type=text]{
+    font-weight: 100;
+    font-size: 18px;
+}
+#cancel-search-icon{
+    fill: #989DA1;
+    width: 16px;
+    cursor: pointer;
+}
+#search-icon{
+    fill: #1A0DB3;
+    width: 16px;
+    cursor: pointer;
+}
+.searchbox-icons{
+    margin-right: 15px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#google-apps{
+    margin-left: 48%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quad{
+    margin: 1px;
+    width: 4px;
+    height: 4px;
+    background-color: #525050;
+}
+#sign-in{
+    color: white;
+    font-weight: bold;
+    background: #4285f4;
+    cursor: pointer;
+    padding: 6px 10px 6px 10px;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+/* SECOND PART OF HEADER */
+.bottom-wrapper{
+    display: flex;
+    margin-left: 180px;
+    list-style: none;
+}
+.bottom-wrapper a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #919497;
+    font-weight: 100;
+    font-size: 14px;
+}
+#nav-divider{
+    width: 270px;
+}
