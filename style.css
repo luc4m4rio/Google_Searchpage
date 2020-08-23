@@ -13,8 +13,8 @@ header{
     align-items: center;
 }
 #google-logo{
-    width: 4.1vw;
-    height: 1.3vw;
+    width: 5vw;
+    height: 1.6vw;
     margin: 30px;
 }
 .searchbox{
@@ -199,4 +199,117 @@ header{
 }
 .search-article{
     margin-bottom: 30px;
+}
+
+/* VIDEOS SECTION */
+
+.video-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.video-section-title-wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.section-title{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.section-title-icon{
+    fill:#80868B; 
+    width: 20px;
+}
+
+.video-block-wrapper{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 645px;
+    position: relative;
+}
+.video-block{
+    width: 210px;
+    height: 300px;
+    border-radius: 12px;
+    border: 1px solid #DFE1E5;
+    position: relative;
+}
+.video-thumbnail-container{
+    width: 100%;
+    height: 38%;
+    z-index: 1;
+    position: relative;
+}
+.video-thumbnail-container img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 11px 11px 0 0;
+}
+.play-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 38%;
+    z-index: 2;
+}
+.play-btn-container svg{
+    fill: white;
+    width: 38px;
+    height: auto;
+    cursor: pointer;
+}
+
+.video-metadata{
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+}
+.video-metadata p{
+    line-height: 20px;
+    white-space: nowrap;
+    position: relative;
+    font-size: 14px;
+    color: #808080;
+}
+.blacked-name{
+    color: black;
+}
+.video-title{
+    padding: 15px;
+}
+.video-title a{
+    text-decoration: none;
+}
+.video-title a:hover{
+    text-decoration: underline;
+}
+
+.view-all-btn{
+    margin: 24px 0 24px 0;
+    width: 645px;
+    height: 1px;
+    background-color: #DADCE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-all-btn div{
+    border: 1px solid #DADCE0;
+    background-color: white;
+    border-radius: 15px;
+    width: 45%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #281CB0;
+    font-size: 14px;
 }
