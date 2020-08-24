@@ -215,12 +215,14 @@ header{
     position: relative;
 }
 .section-title{
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 10px;
+    margin: 5px 0 5px 0;
 }
 .section-title-icon{
     fill:#80868B; 
-    width: 20px;
+    width: 22px;
+    margin-right: 5px;
 }
 
 .video-block-wrapper{
@@ -328,4 +330,203 @@ header{
     width: 16px;
     fill: #281CB0;
     cursor: pointer;
+}
+
+.people-also-search-container{
+    margin-bottom: 15px;
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    width: 550px;
+    height: 150px;
+}
+.link-columns{
+    columns: 2;
+    margin-top: 5px;
+}
+.link-columns a{
+    text-decoration: none;
+    color: #1A0DAB;
+    line-height: 25px;
+    display: block;
+}
+.link-columns a:hover{
+    text-decoration: underline;
+}
+.people-also-search-padding{
+    padding: 15px;
+}
+
+/* GOOGLE IMAGES */
+.images-section-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.images-section-tags-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.images-section-tags-list li{
+    font-size: 14px;
+    border: 1px solid #DADCE0;
+    border-radius: 25px;
+    padding: 8px 12px;
+    margin: 15px 6px 50px 0;
+    cursor: pointer;
+}
+.images-section-tags-list li:hover{
+    background-color: #F8F9FA;
+}
+#dropdown svg{
+    width: 14px;
+    height: auto;
+}
+#dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin-left: 15px;
+    border-radius: 100%;
+}
+
+/* PEOPLE ASK */
+.people-ask-container{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    width: 650px;
+    height: 300px;
+}
+.people-ask-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.people-ask-question-block p{
+    padding: 10px;
+    margin-left: 12px;
+}
+.people-ask-question-block{
+    border-bottom: 1px solid #DADCE0;
+
+}
+.people-ask-question-block svg{
+    float: right;
+    width: 14px;
+    height: auto;
+    padding: 5px 0 0 0;
+    cursor: pointer;
+}
+#people-ask-title p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.relates-search-container{
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 550px;
+    height: 150px;
+}
+#related-search-title{
+    margin-bottom: 15px;
+    font-size: 21px
+}
+.link-columns{
+    columns: 2;
+    margin-top: 5px;
+}
+.link-columns a{
+    text-decoration: none;
+    color: #1A0DAB;
+    line-height: 24px;
+    font-size: 17px;
+    display: block;
+}
+.link-columns a:hover{
+    text-decoration: underline;
+}
+.related-search-padding{
+    padding: 15px;
+    padding-left: 0;
+}
+
+/* MORE PAGES */
+.bottom-pages-nav{
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom-pages-nav a{
+    padding: 3px;
+    text-decoration: none;
+}
+.bottom-row-container{
+    margin-left: 44px;
+}
+#bottom-next-page-btn{
+    margin-left: 44px;
+}
+.upper-row-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.upper-row-container svg{
+    width: 19px;
+    height: auto;
+    fill: blue;
+    margin-left: 10px;
+}
+
+/* FOOTER */
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    bottom: -174%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #EFEFEF;
+}
+.lang-footer a{
+    text-decoration: none;
+    color: #000000;
+}
+.general-footer a{
+    text-decoration: none;
+    color: #000000;
+}
+.lang-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    width: 100vw;
+    margin-left: 170px;
+}
+.general-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    margin-left: 170px;
+}
+.general-footer li{
+    margin-right: 15px;
 }
